@@ -16,7 +16,7 @@
     display: table;
     clear: both;
 }
-}
+
 /* header */
 
 .head-top{
@@ -24,7 +24,7 @@
 }
 
 .head-bt{
-    height: 200px;
+    height: 300px;
 }
 
 /* main  */
@@ -42,8 +42,8 @@ main{
 }
 
 .main-mid{
-    margin:0 2% 20px;
-    width: 56%;
+    margin:0 1% 20px;
+    width: 58%;
 }
 
 /* footer  */
@@ -68,12 +68,12 @@ main{
 
 .debug .main-left{
     background-color:lightblue;
-    height: 350px;
+    height: 400px;
 }
 
 .debug .main-mid{
     background-color:lightblue;
-    height: 350px;
+    height: 400px;
 }
 
 .debug .foot{
