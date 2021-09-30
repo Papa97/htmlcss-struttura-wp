@@ -63,17 +63,17 @@ main{
 
 .debug .main-top{
     background-color: lightblue;
-    height:100px;
+    height:80px;
 }
 
 .debug .main-left{
     background-color:lightblue;
-    height: 400px;
+    height: 350px;
 }
 
 .debug .main-mid{
     background-color:lightblue;
-    height: 400px;
+    height: 350px;
 }
 
 .debug .foot{
