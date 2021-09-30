@@ -1,5 +1,68 @@
+/* commons */
 * {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    padding: 0%;
+}
+
+.head-top,
+.head-bt,
+.main-top{
+    margin-bottom: 20px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+}
+/* header */
+
+.head-top{
+    height: 100px;
+}
+
+.head-bt{
+    height: 200px;
+}
+
+/* main  */
+main{
+    background-color:blue;
+}
+
+.left{
+    float: left;
+}
+
+.main-mid{
+    margin:0 2% 20px;
+}
+
+/* debug */
+.debug .head-top{
+    background-color: violet;
+}
+
+.debug .head-bt{
+    background-color: yellow;
+}
+
+.debug .main-top{
+    background-color: lightblue;
+    height:100px;
+}
+
+.debug .main-left{
+    background-color:lightblue;
+    width: 20%;
+    height: 350px;
+
+}
+
+.debug .main-mid{
+    background-color:lightblue;
+    height: 350px;
+    width: 56%;
 }
