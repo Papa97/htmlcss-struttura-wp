@@ -17,6 +17,11 @@
     clear: both;
 }
 
+.container{
+    width: 80%;
+    margin: 10px auto;
+}
+
 /* header */
 
 .head-top{
@@ -42,8 +47,8 @@ main{
 }
 
 .main-mid{
-    margin:0 1% 20px;
-    width: 58%;
+    margin:0 2% 20px;
+    width: 56%;
 }
 
 /* footer  */
@@ -53,6 +58,7 @@ main{
 }
 
 /* debug */
+
 .debug .head-top{
     background-color: violet;
 }
